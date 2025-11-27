@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Leaf & Lore — Profile</title>
+  <style>
+    :root{--bg:#071428;--card:#071826;--accent:#f6c26b;--muted:#9aa4b2}
+    body{margin:0;font-family:Inter,Arial;color:#e6eef6;background:linear-gradient(180deg,#061023,#071428)}
+    header{display:flex;justify-content:space-between;padding:18px 34px}
+    nav a{color:var(--muted);margin-left:16px;text-decoration:none}
+    main{padding:18px 34px}
+    .profile{display:flex;gap:20px;align-items:flex-start}
+    .avatar{width:160px;height:160px;border-radius:16px;background:linear-gradient(135deg,var(--accent),#ff8da1);display:flex;align-items:center;justify-content:center;font-weight:800;color:#071022;font-size:36px}
+    .bio{max-width:760px}
+    .stats{display:flex;gap:12px;margin-top:12px}
+    .stat{background:rgba(255,255,255,0.02);padding:10px;border-radius:10px}
+    .list{margin-top:18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+    .item{background:var(--card);padding:12px;border-radius:10px}
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display:flex;align-items:center;gap:12px"><div style="width:44px;height:44px;background:linear-gradient(135deg,var(--accent),#ff8da1);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#071022;font-weight:800">L</div><strong>Leaf & Lore</strong></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="profile.html">Profile</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <div class="avatar">AP</div>
+      <div class="bio">
+        <h1 style="margin:0">Asha Patel</h1>
+        <p style="margin:6px 0;color:var(--muted)">Founder & curator at Leaf & Lore — reader, editor and lover of quiet bookstores. I build reading experiences and connect readers to authors.</p>
+        <div class="stats">
+          <div class="stat"><strong>8</strong><div style="font-size:12px;color:var(--muted)">Years running</div></div>
+          <div class="stat"><strong>120+</strong><div style="font-size:12px;color:var(--muted)">Books curated</div></div>
+          <div class="stat"><strong>20k</strong><div style="font-size:12px;color:var(--muted)">Readers reached</div></div>
+        </div>
+
+        <h3 style="margin-top:16px">Recent recommendations</h3>
+        <div class="list">
+          <div class="item">
+            <strong>Quiet Streets</strong>
+            <div style="color:var(--muted);font-size:13px">Modern fiction</div>
+          </div>
+          <div class="item">
+            <strong>Cosmos Within</strong>
+            <div style="color:var(--muted);font-size:13px">Science</div>
+          </div>
+          <div class="item">
+            <strong>Roots & Routes</strong>
+            <div style="color:var(--muted);font-size:13px">Memoir</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer style="padding:18px 34px;color:var(--muted)">© Leaf & Lore — Profile</footer>
+</body>
+</html>

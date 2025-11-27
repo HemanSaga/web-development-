@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Leaf & Lore — Services</title>
+  <style>
+    :root{--bg:#071028;--card:#081226;--accent:#f6c26b;--muted:#9aa4b2}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Arial;color:#e6eef6;background:linear-gradient(180deg,#071028,#071428)}
+    header{display:flex;justify-content:space-between;padding:18px 34px;align-items:center}
+    nav a{color:var(--muted);margin-left:16px;text-decoration:none}
+    .hero{padding:28px 34px}
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;padding:18px 34px}
+    .card{background:var(--card);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+    .badge{display:inline-block;padding:8px 10px;border-radius:10px;background:rgba(246,194,107,0.12);color:var(--accent);font-weight:700}
+    ul{color:var(--muted);padding-left:18px}
+    footer{padding:24px 34px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display:flex;align-items:center;gap:12px"><div style="width:44px;height:44px;background:linear-gradient(135deg,var(--accent),#ff8da1);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#071022;font-weight:800">L</div><strong>Leaf & Lore</strong></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="profile.html">Profile</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 style="margin:0 0 8px">What we offer</h1>
+      <p style="margin:0;color:var(--muted)">Services for readers, clubs and creators — carefully designed around books.</p>
+    </section>
+
+    <section class="services">
+      <article class="card">
+        <div class="badge">Curated Boxes</div>
+        <h3>Monthly book boxes</h3>
+        <p class="muted">Handpicked book + goodies delivered every month.</p>
+        <ul>
+          <li>Theme-based selection</li>
+          <li>Local author spotlight</li>
+          <li>Exclusive postcards & notes</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="badge">Community</div>
+        <h3>Book clubs & events</h3>
+        <p class="muted">Join discussions, readings and workshops (online & offline).</p>
+        <ul>
+          <li>Weekly club meetups</li>
+          <li>Author Q&As</li>
+          <li>Monthly writing workshop</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="badge">Consult</div>
+        <h3>Reading lists & consulting</h3>
+        <p class="muted">Personalized reading lists for schools, libraries & businesses.</p>
+        <ul>
+          <li>Age & goal-based lists</li>
+          <li>Bulk recommendations</li>
+          <li>Library curation</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="badge">Gifts</div>
+        <h3>Gifts & Merch</h3>
+        <p class="muted">Bookmarks, totes and limited edition prints.</p>
+        <ul>
+          <li>Gift wrapping</li>
+          <li>Personalised notes</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div style="padding-left:34px">© Leaf & Lore — Services</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Leaf & Lore — Contact</title>
+  <style>
+    :root{--bg:#071028;--card:#081226;--accent:#f6c26b;--muted:#9aa4b2}
+    body{margin:0;font-family:Inter,Arial;color:#e6eef6;background:linear-gradient(180deg,#061023,#071428)}
+    header{display:flex;justify-content:space-between;padding:18px 34px}
+    nav a{color:var(--muted);margin-left:16px;text-decoration:none}
+    main{padding:24px 34px}
+    .wrap{display:grid;grid-template-columns:1fr 360px;gap:20px}
+    .card{background:var(--card);padding:18px;border-radius:12px}
+    label{display:block;margin-top:10px;color:var(--muted);font-size:13px}
+    input,textarea{width:100%;padding:12px;margin-top:8px;border-radius:10px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.03);color:inherit}
+    .note{color:var(--muted);font-size:13px}
+    footer{padding:20px 34px;color:var(--muted)}
+    @media (max-width:880px){.wrap{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display:flex;align-items:center;gap:12px"><div style="width:44px;height:44px;background:linear-gradient(135deg,var(--accent),#ff8da1);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#071022;font-weight:800">L</div><strong>Leaf & Lore</strong></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="profile.html">Profile</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact us</h1>
+    <p class="note">We'd love to hear from you — questions, partnership enquiries or book suggestions.</p>
+
+    <section class="wrap">
+      <form class="card" method="post" action="#" aria-label="Contact form">
+        <label for="name">Name</label>
+        <input id="name" name="name" placeholder="Your name" />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message..."></textarea>
+
+        <div style="margin-top:12px;display:flex;gap:10px">
+          <button type="submit" style="flex:1;padding:12px;border-radius:10px;border:0;background:linear-gradient(90deg,var(--accent),#ff8da1);font-weight:700;cursor:pointer">Send message</button>
+          <button type="reset" style="flex:1;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--muted);cursor:pointer">Reset</button>
+        </div>
+      </form>
+
+      <aside class="card">
+        <h3>Visit or write</h3>
+        <p class="note">Leaf & Lore HQ<br/>123 Story Lane<br/>Booktown, BK 40021</p>
+        <p style="margin-top:12px">Email: hello@leafandlore.example<br/>Phone: +91 98765 43210</p>
+
+        <hr style="border:none;border-top:1px solid rgba(255,255,255,0.03);margin:14px 0">
+        <h4>Opening hours</h4>
+        <p class="note">Mon — Fri: 9:00 — 18:00<br/>Sat: 10:00 — 16:00<br/>Sun: Closed</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <div style="padding-left:34px">© Leaf & Lore — Contact</div>
+  </footer>
+</body>
+</html>
+
