@@ -1,2 +1,2 @@
 i am hemanth,
-I am reading git and github
+I am reading merge conflict
