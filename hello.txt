@@ -1,2 +1,4 @@
 Hello,
 I am reading git and github
+I am Branch2
+I say Hi!
